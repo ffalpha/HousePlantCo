@@ -2,12 +2,12 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addItem } from '../store/slices/cartSlice';
 const plants = [
-  { id: 1, name: 'Aloe Vera', price: 10, category: 'Succulents', image: `${process.env.PUBLIC_URL}/img/aloe.jpg` },
-  { id: 2, name: 'Snake Plant', price: 15, category: 'Air Purifiers', image: `${process.env.PUBLIC_URL}/img/snake.jpg` },
-  { id: 3, name: 'ZZ Plant', price: 20, category: 'Low Light', image: `${process.env.PUBLIC_URL}/img/zz.jpg` },
-  { id: 4, name: 'Peace Lily', price: 12, category: 'Air Purifiers', image: `${process.env.PUBLIC_URL}/img/lily.jpg` },
-  { id: 5, name: 'Pothos', price: 8, category: 'Low Light', image: `${process.env.PUBLIC_URL}/img/pothos.jpg` },
-  { id: 6, name: 'Echeveria', price: 6, category: 'Succulents', image: `${process.env.PUBLIC_URL}/img/echeveria.jpg` }
+  { id: 1, name: 'Aloe Vera', price: 10, category: 'Succulents', image: process.env.PUBLIC_URL + '/img/aloe.jpg' },
+  { id: 2, name: 'Snake Plant', price: 15, category: 'Air Purifiers', image: process.env.PUBLIC_URL + '/img/snake.jpg' },
+  { id: 3, name: 'ZZ Plant', price: 20, category: 'Low Light', image: process.env.PUBLIC_URL + '/img/zz.jpg' },
+  { id: 4, name: 'Peace Lily', price: 12, category: 'Air Purifiers', image: process.env.PUBLIC_URL + '/img/lily.jpg' },
+  { id: 5, name: 'Pothos', price: 8, category: 'Low Light', image: process.env.PUBLIC_URL + '/img/pothos.jpg' },
+  { id: 6, name: 'Echeveria', price: 6, category: 'Succulents', image: process.env.PUBLIC_URL + '/img/echeveria.jpg' }
 ];
 
 

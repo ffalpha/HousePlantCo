@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 function LandingPage() {
   const navigate = useNavigate();
-
+  console.log("PUBLIC_URL:", process.env.PUBLIC_URL);
   return (
     <div style={{
       backgroundImage: `url(${process.env.PUBLIC_URL}/img/bg.jpg)`,
