@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HousePlantCo/static/css/main.d7146ed5.css",
+    "main.js": "/HousePlantCo/static/js/main.00ba4b58.js",
+    "index.html": "/HousePlantCo/index.html",
+    "main.d7146ed5.css.map": "/HousePlantCo/static/css/main.d7146ed5.css.map",
+    "main.00ba4b58.js.map": "/HousePlantCo/static/js/main.00ba4b58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7146ed5.css",
+    "static/js/main.00ba4b58.js"
+  ]
+}
