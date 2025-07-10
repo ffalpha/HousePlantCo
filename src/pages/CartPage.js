@@ -13,7 +13,7 @@ function CartPage() {
   return (
     <div
       style={{
-        backgroundImage: 'url(/img/bg.jpg)',
+        backgroundImage: `url(${process.env.PUBLIC_URL}/img/bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh',

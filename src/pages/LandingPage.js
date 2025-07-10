@@ -6,7 +6,8 @@ function LandingPage() {
 
   return (
     <div style={{
-      backgroundImage: 'url(/img/bg.jpg)',
+      backgroundImage: `url(${process.env.PUBLIC_URL}/img/bg.jpg)`,
+
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       height: '100vh',
