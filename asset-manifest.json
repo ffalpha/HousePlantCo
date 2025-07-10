@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/HousePlantCo/static/css/main.d7146ed5.css",
-    "main.js": "/HousePlantCo/static/js/main.98d1d698.js",
+    "main.js": "/HousePlantCo/static/js/main.c49a0aaa.js",
     "index.html": "/HousePlantCo/index.html",
     "main.d7146ed5.css.map": "/HousePlantCo/static/css/main.d7146ed5.css.map",
-    "main.98d1d698.js.map": "/HousePlantCo/static/js/main.98d1d698.js.map"
+    "main.c49a0aaa.js.map": "/HousePlantCo/static/js/main.c49a0aaa.js.map"
   },
   "entrypoints": [
     "static/css/main.d7146ed5.css",
-    "static/js/main.98d1d698.js"
+    "static/js/main.c49a0aaa.js"
   ]
 }
